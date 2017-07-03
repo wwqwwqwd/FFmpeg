@@ -33,3 +33,7 @@
 /lcov/
 /src
 /mapfile
+
+*.user
+*.obj
+ffbuild/
