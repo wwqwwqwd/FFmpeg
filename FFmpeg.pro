@@ -5,6 +5,7 @@ SUBDIRS += \
     libavformat \
     libavcodec \
     libswresample \
+    libswscale \
     libavdevice \
     compat \
     doc \

@@ -23,7 +23,12 @@ SOURCES += \
     avpacket.c \
     jpeg2000.c \
     libopenjpegdec.c \
-    libopenjpegenc.c
+    libopenjpegenc.c \
+    nvenc.c \
+    nvenc_h264.c \
+    nvenc_hevc.c \
+    libx264.c \
+    libx265.c
 
 HEADERS += \
     mpegaudio.h \
@@ -31,4 +36,5 @@ HEADERS += \
     hevcdec.h \
     internal.h \
     avcodec.h \
-    bsf.h
+    bsf.h \
+    nvenc.h

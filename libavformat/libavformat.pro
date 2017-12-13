@@ -14,7 +14,10 @@ SOURCES += \
     aviobuf.c \
     mov.c \
     mov_chan.c \
-    isom.c
+    isom.c \
+    avienc.c \
+    avidec.c \
+    avienc.c
 
 HEADERS += \
     avi.h \
@@ -24,6 +27,7 @@ HEADERS += \
     avio.h \
     avio_internal.h \
     mov_chan.h \
-    isom.h
+    isom.h \
+    avi.h
 
 DISTFILES +=
