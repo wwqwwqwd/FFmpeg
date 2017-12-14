@@ -17,7 +17,8 @@ SOURCES += \
     isom.c \
     avienc.c \
     avidec.c \
-    avienc.c
+    avienc.c \
+    http.c
 
 HEADERS += \
     avi.h \
@@ -28,6 +29,7 @@ HEADERS += \
     avio_internal.h \
     mov_chan.h \
     isom.h \
-    avi.h
+    avi.h \
+    http.h
 
 DISTFILES +=

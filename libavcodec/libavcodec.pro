@@ -3,7 +3,7 @@ CONFIG -= qt
 TARGET = libavcodec
 TEMPLATE = lib
 
-INCLUDEPATH += ..
+INCLUDEPATH += .. ../../aac.build
 
 SOURCES += \
     mpegaudio.c \
@@ -28,7 +28,9 @@ SOURCES += \
     nvenc_h264.c \
     nvenc_hevc.c \
     libx264.c \
-    libx265.c
+    libx265.c \
+    libfdk-aacdec.c \
+    libfdk-aacenc.c
 
 HEADERS += \
     mpegaudio.h \
