@@ -18,7 +18,11 @@ SOURCES += \
     avienc.c \
     avidec.c \
     avienc.c \
-    http.c
+    http.c \
+    movenc.c \
+    movenccenc.c \
+    movenchint.c \
+    hlsenc.c
 
 HEADERS += \
     avi.h \
@@ -30,6 +34,8 @@ HEADERS += \
     mov_chan.h \
     isom.h \
     avi.h \
-    http.h
+    http.h \
+    movenc.h \
+    movenccenc.h
 
 DISTFILES +=

@@ -50,6 +50,7 @@ OBJS = allcodecs.o                                                      \
        utils.o                                                          \
        vorbis_parser.o                                                  \
        xiph.o                                                           \
+       encrypt_bsf.o                                                    \
 
 # subsystems
 OBJS-$(CONFIG_AANDCTTABLES)            += aandcttab.o

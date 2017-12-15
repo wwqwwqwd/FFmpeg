@@ -7,6 +7,7 @@ SUBDIRS += \
     libswresample \
     libswscale \
     libavdevice \
+    libavfilter \
     compat \
     doc \
-    ffmpeg
+    fftools
