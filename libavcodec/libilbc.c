@@ -41,7 +41,7 @@ static int get_mode(AVCodecContext *avctx)
 
 typedef struct ILBCDecContext {
     const AVClass *class;
-    iLBC_Dec_Inst_t decoder;
+    IlbcDecoder decoder;
     int enhance;
 } ILBCDecContext;
 
@@ -117,7 +117,7 @@ AVCodec ff_libilbc_decoder = {
 
 typedef struct ILBCEncContext {
     const AVClass *class;
-    iLBC_Enc_Inst_t encoder;
+    IlbcEncoder encoder;
     int mode;
 } ILBCEncContext;
 

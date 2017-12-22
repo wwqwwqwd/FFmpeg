@@ -3,7 +3,7 @@ CONFIG -= qt
 TARGET = libavcodec
 TEMPLATE = lib
 
-INCLUDEPATH += .. ../../aac.build ../../x264 ../../openssl/include
+INCLUDEPATH += .. ../../../include
 
 SOURCES += \
     mpegaudio.c \
@@ -43,7 +43,21 @@ SOURCES += \
     imx_dump_header_bsf.c \
     encrypt_bsf.c \
     bitstream_filter.c \
-    bitstream_filters.c
+    bitstream_filters.c \
+    mpeg4audio.c \
+    png.c \
+    pngdec.c \
+    pngdsp.c \
+    pngenc.c \
+    pnm.c \
+    pnm_parser.c \
+    pnmdec.c \
+    pnmenc.c \
+    libx264.c \
+    libvpx.c \
+    libvpxdec.c \
+    libvpxenc.c \
+    libilbc.c
 
 HEADERS += \
     mpegaudio.h \
@@ -53,4 +67,7 @@ HEADERS += \
     avcodec.h \
     bsf.h \
     nvenc.h \
-    bsf.h
+    bsf.h \
+    png.h \
+    pnm.h \
+    libvpx.h

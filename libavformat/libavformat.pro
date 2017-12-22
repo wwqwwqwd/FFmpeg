@@ -3,7 +3,7 @@ CONFIG -= qt
 TARGET = libavformat
 TEMPLATE = lib
 
-INCLUDEPATH += ..
+INCLUDEPATH += .. ../../../include
 
 SOURCES += \
     avidec.c \
@@ -22,7 +22,9 @@ SOURCES += \
     movenc.c \
     movenccenc.c \
     movenchint.c \
-    hlsenc.c
+    hlsenc.c \
+    avc.c \
+    hevc.c
 
 HEADERS += \
     avi.h \
@@ -36,6 +38,8 @@ HEADERS += \
     avi.h \
     http.h \
     movenc.h \
-    movenccenc.h
+    movenccenc.h \
+    avc.h \
+    hevc.h
 
 DISTFILES +=
